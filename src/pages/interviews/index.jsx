@@ -45,7 +45,7 @@ export default function Interviews() {
             >
               <div className="h-3/4 py-3 px-4 flex flex-col gap-y-5 justify-around bg-primary-100 rounded-lg text-center ">
                 <H4 className="font-semibold">{interview.postTitle}</H4>
-                <P>Description: Lorem ipsum dolor sit amet</P>
+                { interview.preview ? <P>{interview.preview.slice(0,70)}...</P>: <P></P>}
               </div>
               <P className="text-center pt-0.5">Tags: {interview.company}</P>
             </LinkedItem>

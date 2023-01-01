@@ -20,8 +20,8 @@ export const pages = [
     href: "/club-events",
   },
   {
-    key: "contact-us",
-    name: "Contact",
-    href: "/contact-us",
+    key: "about-us",
+    name: "About Us",
+    href: "/about-us",
   },
 ];

@@ -29,6 +29,7 @@ export default function ContactUs() {
             placeholder="Enter your query here..."
             type="text"
           />
+          <button className="bg-primary-900 p-2 font-semibold text-white rounded-xl">SUBMIT</button>
         </div>
       </div>
     </PageLayout>

@@ -4,11 +4,11 @@ import Image from "next/image";
 const Motive = (props) => {
   return (
     
-    <div className="bg-primary-200 md:w-1/3 mt-7 p-4 h-1/6 md:p-4 rounded-3xl md:h-max">
+    <div className="group my-2 w-full sm:w-96 px-6 py-5 flex flex-col justify-between items-center rounded-lg shadow-md border-2 border-primary-200 hover:border-transparent duration-300 hover:rounded-xl hover:shadow-primary-600">
  {(props.imsize && props.imsize==="l") ?<Image
           width={200}
           height={200}
-          src={`/assets/${props.im}.png`}
+          src={`/assets/members/${props.im}.png`}
           alt="PlaceXP"
         />:  <Image
           width={70}
