@@ -63,6 +63,8 @@ export default function Home() {
             height="100%"
             layout="responsive"
             objectFit="contain"
+            placeholder='blur'
+            blurDataURL='https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png'
           />
         </div>
       </div>

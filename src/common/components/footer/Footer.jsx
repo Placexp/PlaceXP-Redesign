@@ -35,7 +35,7 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        <LinkedItem href="/policy" className="underline text-sky-600">
+        <LinkedItem href="/policy" className="underline  text-sky-600">
           Terms of use
         </LinkedItem>
         <P className="text-black">&#169; 2022 PlaceXP - All Rights Reserved</P>
