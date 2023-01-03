@@ -38,7 +38,7 @@ const cardsDetails = [
 export default function Home() {
   return (
     <PageLayout title="Home" className="gap-5">
-      <div className="flex justify-between flex-col lg:flex-row items-center gap-10 mt-10 lg:-mt-10">
+      <div className="flex justify-between flex-col lg:flex-row items-center gap-10 mt-10 lg:-mt-10 animate-fade-in-down ">
         <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-start lg:pr-20">
           <H3 className="text-primary-600 font-medium leading-normal">
             THIS IS PLACEXP!
@@ -73,7 +73,7 @@ export default function Home() {
         <H2 className="text-primary-900 text-center font-semibold mb-6">
           Resources We Offer
         </H2>
-        <div className="flex flex-wrap gap-5 justify-center">
+        <div className="flex flex-wrap gap-5 justify-center ">
           {cardsDetails.map((details, index) => (
             <Card key={index} {...details} />
           ))}

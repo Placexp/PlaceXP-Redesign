@@ -4,7 +4,7 @@ import Image from "next/image";
 const Motive = (props) => {
   return (
     
-    <div className="group my-2 w-full sm:w-96 px-6 py-5 flex flex-col justify-between items-center rounded-lg shadow-md border-2 border-primary-200 hover:border-transparent duration-300 hover:rounded-xl hover:shadow-primary-600">
+    <div className="group my-2 w-full animate-fade-in-down sm:w-96 px-6 py-5 flex flex-col justify-between items-center rounded-lg shadow-md border-2 border-primary-200 hover:border-transparent duration-300 hover:rounded-xl hover:shadow-primary-600">
  {(props.imsize && props.imsize==="l") ?<Image
           width={200}
           height={200}

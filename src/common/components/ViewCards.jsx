@@ -12,7 +12,7 @@ export const ViewCards = ({
   console.log(title);
   return (
     <>
-      <div className="mb-10 md:mb-20 w-11/12 flex flex-col lg:flex-row lg:justify-between items-center ">
+      <div className="mb-10 md:mb-20 w-11/12 flex flex-col lg:flex-row lg:justify-between items-center animate-fade-in-down ">
         <div className="flex flex-col  items-center lg:items-start gap-2 mb-10 lg:mb-0">
           <H3 className="text-primary-300 text-center uppercase">{title}</H3>
           <H1 className="font-extrabold text-center text-primary-900">
