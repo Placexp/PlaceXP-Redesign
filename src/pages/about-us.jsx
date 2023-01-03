@@ -12,15 +12,21 @@ const Aboutus = () => {
         <Motive
           name="OUR MOTIVE"
           im="Motive"
+          des="At PlaceXP, we are committed to building a platform that supports learning, self-growth, and skill development by fostering a culture that enables people to do their best work. We firmly believe in uniting as a community to support one another in evolving into better versions of ourselves.
+          "
         
         />
         <Motive
           name="ABOUT PLACE XP"
           im="Group"
+          des="One of VIT Chennai's first-ever significant and influential technical club that caters to students needs. From academics, classroom to career, from internships to placements, and much more!!
+          "
         />
         <Motive
           name="UPCOMING PROGRAM"
           im="graph"
+          des="Interactions with Alumni, Workshops, Open Mic events to exhibit your talents, guidance from seniors to cover all the aspects of college life and placements.We hope to surprise you with much more interesting and amazing sessions :)
+          We have more in our store !!"
         />
          </div>
 

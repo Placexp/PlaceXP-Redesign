@@ -22,7 +22,7 @@ const Motive = (props) => {
           blurDataURL='https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png'
         />}
       <h2 className='md:text-2xl  text-primary-600 font-extrabold md:mb-9 '>{props.name}</h2>
-     {props.des?<p>{props.des}</p> : <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis blanditiis molestias tenetur aspernatur maxime necessitatibus soluta unde rem minus minima, consectetur debitis delectus suscipit alias, libero quos molestiae autem fuga.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus aliquid tempore eum tempora veritatis repellendus iste ab reprehenderit molestias, quam error deserunt quia omnis accusantium, facilis possimus est et. </p>}
+     {props.des?<p>{props.des}</p> : <p> </p>}
     </div>
  
   )

@@ -1,13 +1,25 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import clsx from "clsx";
 import { LinkedItem } from "../elements/LinkedItem";
 import { pages } from ".";
 import Image from "next/image";
-
+import { useRouter } from 'next/router';
 export default function Navbar() {
   const [selectedTabKey, setSelectedTabKey] = useState("home");
+  const { asPath, pathname } = useRouter();
+  useEffect(() => {
+    console.log(pathname.split('/')[1]);
+    if(pathname.split('/')[1].length==0){
+      setSelectedTabKey('home');
+    }
+    else{
+      setSelectedTabKey(pathname.split('/')[1])
+    }
+   
+  }, [pathname])
+  
 
   return (
     <Popover className="w-full sticky top-0 z-50 bg-white border-b-2 border-gray-100">
