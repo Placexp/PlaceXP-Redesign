@@ -92,7 +92,7 @@ const Aboutus = () => {
              <Motive
           name="Kashish"
           im="kashish"
-          des="Design Lead"
+          des="Creative Lead"
           imsize="l"
         />
           <Motive
@@ -102,9 +102,27 @@ const Aboutus = () => {
           imsize="l"
         />
          <Motive
-          name="Shriram Jorvekar"
-          im="shriram"
+          name="Ayush"
+          im="ayush"
           des="HR and Management Lead"
+          imsize="l"
+        />
+            <Motive
+          name="Gayathri Joshi"
+          im="gayathri"
+          des="HR and Management Lead"
+          imsize="l"
+        />
+            <Motive
+          name="Ajay"
+          im="null"
+          des="Finance Lead"
+          imsize="l"
+        />
+            <Motive
+          name="Yashita"
+          im="null"
+          des="Finance Lead"
           imsize="l"
         />
           
